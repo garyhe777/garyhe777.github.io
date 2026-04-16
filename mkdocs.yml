@@ -1,0 +1,37 @@
+site_name: 互联网笔试面试知识体系
+site_description: 分层整理高频知识点，支持快速定位与系统复习。
+site_url: https://garyhe777.github.io/
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+plugins:
+  - search:
+      lang: zh
+
+nav:
+  - 首页: index.md
+  - 计算机网络: network.md
+  - 操作系统: os.md
+  - Linux / Git: linux-git.md
